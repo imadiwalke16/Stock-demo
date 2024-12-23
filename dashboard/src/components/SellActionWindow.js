@@ -7,7 +7,7 @@ const SellActionWindow = ({ uid, onClose }) => {
   const [stockPrice, setStockPrice] = useState(0.0);
 
   const handleSellClick = () => {
-    axios.post("http://localhost:3002/newSellOrder", {
+    axios.post("https://stock-demo-backend.onrender.com/newSellOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
