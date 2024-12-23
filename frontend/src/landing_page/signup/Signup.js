@@ -7,7 +7,7 @@ function Signup() {
       <div className="row">
         <h1 className="">Signup</h1>
         <p>
-          Already have an account? Visit <a href="">Dashboard</a>
+          Already have an account? Visit <a href="https://stock-demo-kite-mkcb.onrender.com/">Dashboard</a>
         </p>
       </div>
     </div>
